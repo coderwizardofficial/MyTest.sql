@@ -200,10 +200,10 @@ FROM employee
 WHERE fname = 'Susan' AND lname = 'Shepard'
 );
 
-/*
+
 select employee.*, address.*, contact.*
 from employee
 full outer join address on employee.id=address.id
 full outer join contact on employee.id=contact.id
 Where fname="Susan";
-*/
+
